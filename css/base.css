@@ -1,0 +1,280 @@
+:root {
+  --white: #f5f5f5;
+  --off-white: #ededed;
+
+  --off-black: #252525;
+  --black: #1a1a1a;
+
+  --light-grey: #e5e5e5;
+  --dark-grey: #333;
+
+  --light-teal: #57bfc0;
+  --dark-teal: #50aeaf;
+
+  --light-yellow: #fe0;
+  --dark-yellow: #f5dc00;
+}
+
+::selection {
+  background-color: var( --dark-yellow );
+  color: var( --off-black );
+}
+*, section footer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body, main, section, button {
+  overflow: hidden;
+  height: 100%;
+}
+html, a, button, .border {
+  background-color: var( --black );
+  color: var( --off-white );
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+header, ul, footer {
+  display: flex;
+  padding: 2rem;
+  height: 33.333%;
+}
+header, header > .wrap, footer, button {
+  margin: auto;
+  width: 100%;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: normal;
+  text-align: left;
+}
+nav {
+  margin-top: 0.5rem;
+}
+ul {
+  justify-content: space-between;
+  padding: 0.5rem 0.25rem;
+  height: auto;
+  list-style-type: none;
+  font-size: 1.25rem;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: var( --light-teal );
+}
+a:active, button:active {
+  color: #111;
+}
+footer {
+  flex-direction: column;
+  height: 66.666%;
+}
+button {
+  cursor: pointer;
+  border-style: none;
+  background-color: var( --off-black );
+  font-size: 1.5rem;
+}
+button:hover {
+  background-color: var( --light-teal );
+}
+.border .wrap, .border:last-child {
+  display: none;
+}
+.border {
+  height: 1.5rem;
+}
+.dim {
+  opacity: 0.5;
+}
+button:active {
+  background-color: #111;
+}
+
+@media ( orientation: portrait ) and ( min-width: 500px ) {
+  h2 {
+    position: relative;
+    left: 1rem;
+  }
+  ul {
+    padding: 0.5rem 1.5rem;
+  }
+}
+@media ( orientation: portrait ) and ( min-width: 600px ) {
+  h2 {
+    left: 2rem;
+  }
+  ul {
+    padding: 0.5rem 2.5rem;
+  }
+}
+@media ( orientation: portrait ) and ( min-width: 700px ) {
+  h2 {
+    left: 4rem;
+  }
+  ul {
+    padding: 0.5rem 4.5rem;
+  }
+}
+@media ( orientation: portrait ) and ( max-height: 700px ) {
+  html {
+    font-size: 2.25vh;
+  }
+}
+@media ( orientation: portrait ) and ( max-height: 600px ) {
+  html {
+    font-size: 2.5vh;
+  }
+}
+@media ( orientation: landscape ) and ( min-width: 650px ) and
+  ( max-width: 900px ) {
+  html {
+    font-size: 1.75vw;
+  }
+}
+@media ( orientation: landscape ) {
+  section, header, header > .wrap {
+    display: flex;
+    flex-direction: row;
+  }
+  header > .wrap, .wrap .wrap {
+    position: relative;
+    top: 3.75rem;
+  }
+  .wrap .wrap {
+    top: 4rem;
+  }
+  section, header, header > .wrap, nav, ul, footer {
+    height: 100%;
+  }
+  header > .wrap, ul {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header {
+    width: 40%;
+  }
+  h2 {
+    text-align: center;
+  }
+  h2:first-child {
+    margin-right: 12rem;
+  }
+  ul {
+    padding: 12rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 685px ) and
+  ( max-width: 900px ) {
+  html {
+    font-size: 1.75vw;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 700px ) {
+  header > .wrap {
+    top: 2.5rem;
+  }
+  ul {
+    padding: 8rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 750px ) and 
+  ( min-width: 725px ) and ( max-width: 800px ) {
+  ul {
+    padding: 13rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 750px ) and 
+  ( min-width: 850px ) and ( max-width: 900px ) {
+  ul {
+    padding: 10rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 700px ) and 
+  ( min-width: 650px ) and ( max-width: 800px ) {
+  header > .wrap {
+    top: 3.5rem;
+  }
+  ul {
+    padding: 13rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 700px ) and 
+  ( min-width: 800px ) {
+  ul {
+    padding: 10rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 650px ) and 
+  ( min-width: 600px ) and ( max-width: 800px ) {
+  header > .wrap {
+    top: 3.75rem;
+  }
+  ul {
+    padding: 12rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 600px ) and 
+  ( min-width: 550px ) and ( max-width: 650px ) {
+  header > .wrap {
+    top: 4.5rem;
+  }
+  ul {
+    padding: 14rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 550px ) and 
+  ( min-width: 500px ) and ( max-width: 800px ) {
+  section header > .wrap {
+    top: 4.5rem;
+  }
+  nav ul {
+    padding: 13rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 550px ) and 
+  ( min-width: 650px ) and ( max-width: 800px ) {
+  nav ul {
+    padding: 10rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 550px ) {
+  header > .wrap {
+    top: 1.5rem;
+  }
+  ul {
+    padding: 7rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 500px ) {
+  header > .wrap {
+    top: 0.5rem;
+  }
+  ul {
+    padding: 6rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 475px ) {
+  ul {
+    padding: 5rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 475px ) {
+  ul {
+    padding: 5rem 0rem;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 455px ) {
+  html {
+    font-size: 1.75vh;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 455px ) {
+  nav ul {
+    padding: 12rem 0rem;
+  }
+}
