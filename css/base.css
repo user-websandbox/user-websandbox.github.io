@@ -36,7 +36,7 @@ html, a, button, .border {
   text-align: center;
 }
 html {
-  background-color: #0f7;
+  background-color: #f07;
 }
 header, ul, footer {
   display: flex;
@@ -306,7 +306,10 @@ button:active {
 @media ( orientation: landscape ) and ( min-height: 300px )
   and ( max-height: 310px ) {
   html {
-    background-color: #07f;
+    background-color: #f70;
+  }
+  section header > .wrap {
+    top: 0rem;
   }
   nav ul li {
     padding: 1rem 0rem;
