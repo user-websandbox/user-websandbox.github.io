@@ -178,3 +178,19 @@ button:active {
     height: 80%;
   }
 }
+@media ( orientation: landscape ) and ( max-height: 200px ) {
+  html:root {
+    font-size: 5vh;
+  }
+  header {
+    height: 30%;
+  }
+  footer {
+    height: 70%;
+  }
+}
+@media ( orientation: landscape ) and ( max-height: 75px ) {
+  html:root {
+    font-size: 12vh;
+  }
+}
