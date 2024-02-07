@@ -130,7 +130,7 @@ button:active {
     font-size: 2.5vh;
   }
 }
-@media ( orientation: portrait ) and ( max-width: 475px ) {
+@media ( orientation: portrait ) and ( max-width: 450px ) {
   html {
     font-size: 3.5vw;
   }
@@ -263,6 +263,14 @@ button:active {
     padding: 6rem 0rem;
   }
 }
+@media ( orientation: landscape ) and ( max-height: 525px ) {
+  section header > .wrap {
+    top: 1.5rem;
+  }
+  nav ul {
+    padding: 7rem 0rem;
+  }
+}
 @media ( orientation: landscape ) and ( max-height: 475px ) {
   ul {
     padding: 5rem 0rem;
@@ -282,4 +290,13 @@ button:active {
   nav ul {
     padding: 12rem 0rem;
   }
+}
+@media ( orientation: landscape ) and ( max-height: 455px ) and
+  ( min-width: 700px ) {
+    html {
+      font-size: 3vh;
+    }
+    nav ul {
+      padding:7rem 0rem;
+    }
 }
