@@ -300,3 +300,8 @@ button:active {
       padding:7rem 0rem;
     }
 }
+@media ( orientation: landscape ) and ( min-height: 300px ) {
+  html {
+    background-color: #f07;
+  }
+}
