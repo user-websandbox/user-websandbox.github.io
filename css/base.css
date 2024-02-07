@@ -2,7 +2,7 @@
   --white: #f5f5f5;
   --off-white: #ededed;
 
-  --off-black: #222;
+  --off-black: #1a1a1a;
   --black: #111;
 
   --light-grey: #e5e5e5;
@@ -45,7 +45,7 @@ header, header > .wrap, footer, button {
   width: 100%;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 3.25rem;
   font-weight: normal;
   text-align: left;
 }
@@ -77,7 +77,7 @@ button {
   cursor: pointer;
   border-style: none;
   background-color: var( --off-black );
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 button:hover {
   background-color: var( --dark-teal );
