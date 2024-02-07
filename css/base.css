@@ -131,6 +131,17 @@ button:active {
     margin-left: 2rem;
   }
 }
+@media ( orientation: landscape ) and ( max-height: 600px ) {
+  html:root {
+    font-size: 2.5vh;
+  }
+  header {
+    height: 15%;
+  }
+  footer {
+    height: 85%;
+  }
+}
 @media ( max-height: 700px ) {
   html {
     font-size: 2.25vh;
