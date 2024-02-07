@@ -153,3 +153,14 @@ button:active {
     font-size: 3.5vw;
   }
 }
+@media ( orientation: landscape ) and ( max-height: 350px ) {
+  html:root {
+    font-size: 2.75vh;
+  }
+  header {
+    height: 20%;
+  }
+  footer {
+    height: 80%;
+  }
+}
