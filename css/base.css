@@ -80,7 +80,7 @@ button {
   font-size: 1.5rem;
 }
 button:hover {
-  background-color: var( --light-teal );
+  background-color: var( --dark-teal );
 }
 .border .wrap, .border:last-child {
   display: none;
