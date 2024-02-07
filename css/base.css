@@ -36,7 +36,7 @@ html, a, button, .border {
   text-align: center;
 }
 html {
-  background-color: #f70;
+  background-color: #70f;
 }
 header, ul, footer {
   display: flex;
@@ -303,7 +303,7 @@ button:active {
       padding:7rem 0rem;
     }
 }
-@media ( orientation: landscape ) and ( min-height: 300px ) {
+@media ( orientation: landscape ) and ( min-height: 325px ) {
   html {
     background-color: #f07;
   }
