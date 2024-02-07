@@ -303,9 +303,9 @@ button:active {
 @media ( orientation: landscape ) and ( min-height: 305px )
   and ( max-height: 310px ) {
   section header > .wrap {
-    top: -4rem;
+    top: -3.5rem;
   }
   nav ul li {
-    padding: 1rem 0rem;
+    padding: 1.25rem 0rem;
   }
 }
