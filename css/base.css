@@ -35,9 +35,6 @@ html, a, button, .border {
   text-transform: uppercase;
   text-align: center;
 }
-html {
-  background-color: red;
-}
 header, ul, footer {
   display: flex;
   padding: 2rem;
