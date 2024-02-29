@@ -1,47 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-}
-html, body, article {
-    height: 100%;
-    text-align: center;
-    text-transform: capitalize;
 }
 html, body {
-    padding: 2rem;
-    color: #862821;
+    height: 100%;
 }
 html {
     font-family: "Yellowtail", cursive;
     font-weight: 400;
     font-style: normal;    
+    font-size: 2vh;  
 }
 body {
     background-image: url( '../res/background.png' );
     background-size: cover;
-    font-size: 4vh;
-    transform: translateY( 5rem );
-}
-h1 {
-    text-transform: uppercase;
-    font-size: 1rem;
-}
-h1, h2 {
-    color: #0b3036;
-}
-article {
     display: flex;
 }
-ol {
+section {
     margin: auto;
-    width: 20rem;
-    padding: 1rem;
-    transform: translateY( -5rem );
+    padding: 3rem;
+    border-radius: 1rem;
+    height: 90%;
+    display: flex;
+    backdrop-filter: blur( 0.5rem );
+    background-color: rgba(255, 255, 255, 0.127);
 }
-li {
-    padding: 1rem;
+div {
+    margin: auto;
+}
+header {
+    margin: 2rem;
+}
+h1, h2 {
+    text-align: center;
+}
+ol {
+    font-size: 1.25rem;
+    list-style-position: inside;
 }
