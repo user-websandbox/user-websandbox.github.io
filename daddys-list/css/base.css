@@ -6,6 +6,7 @@
 }
 html, body {
     height: 100%;
+    background-color: #e3f0f2;
 }
 html {
     font-family: "Yellowtail", cursive;
@@ -25,6 +26,7 @@ section {
     border-radius: 1rem;
     height: 90%;
     display: flex;
+    transform: translateY( -6% );
 }
 div {
     margin: auto;
