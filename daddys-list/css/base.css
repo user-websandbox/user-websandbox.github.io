@@ -12,6 +12,7 @@ html {
     font-weight: 400;
     font-style: normal;    
     font-size: 2vh;  
+    text-transform: capitalize;
 }
 body {
     background-image: url( '../res/background.png' );
@@ -24,8 +25,6 @@ section {
     border-radius: 1rem;
     height: 90%;
     display: flex;
-    backdrop-filter: blur( 0.5rem );
-    background-color: rgba(255, 255, 255, 0.127);
 }
 div {
     margin: auto;
@@ -35,8 +34,14 @@ header {
 }
 h1, h2 {
     text-align: center;
+    font-size: 1.25rem;
+    color: #144e57;
+}
+h2 {
+    font-size: 3rem;
 }
 ol {
-    font-size: 1.25rem;
+    font-size: 2rem;
     list-style-position: inside;
+    color: #a4263f;
 }
