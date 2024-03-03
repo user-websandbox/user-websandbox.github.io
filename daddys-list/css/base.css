@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -37,7 +38,7 @@ header {
 h1, h2 {
     text-align: center;
     font-size: 1.25rem;
-    color: #144e57;
+    color: #144e57;  
 }
 h2 {
     font-size: 3rem;
@@ -46,4 +47,5 @@ ol {
     font-size: 2rem;
     list-style-position: inside;
     color: #a4263f;
+    text-align: center;
 }
